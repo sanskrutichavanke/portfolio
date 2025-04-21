@@ -1,0 +1,156 @@
+* Base Font & Layout */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.6rem;
+  color: #4b4b4b !important;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin-left: 1rem;
+  color: #5e5e5e !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #f7f9fc;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.profile-img {
+  width: 200px;
+  height: 221px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  display: block;
+  margin: 0 auto 1rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Section Headings */
+h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Skills Grid */
+#skills .col-md-3 {
+  font-size: 1.1rem;
+  background-color: #eaf4ff;
+  padding: 12px 0;
+  border-radius: 8px;
+  margin: 8px;
+  transition: all 0.2s ease;
+}
+
+#skills .col-md-3:hover {
+  background-color: #d4eaff;
+  transform: scale(1.03);
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #7fafff;
+  border-color: #7fafff;
+}
+
+.btn-primary:hover {
+  background-color: #679eff;
+  border-color: #679eff;
+}
+
+.btn-outline-primary {
+  border-color: #679eff;
+  color: #679eff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #679eff;
+  color: white;
+}
+
+.btn-outline-success {
+  border-color: #58c59b;
+  color: #58c59b;
+}
+
+.btn-outline-success:hover {
+  background-color: #58c59b;
+  color: white;
+}
+
+/* Contact Form */
+#contact input,
+#contact textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+#contact button {
+  background-color: #84b4ff;
+  border: none;
+}
+
+#contact button:hover {
+  background-color: #679eff;
+}
+
+/* Footer */
+footer {
+  background-color: #fdfdfd;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 576px) {
+  .profile-img {
+    width: 160px;
+    height: auto;
+  }
+
+  #skills .col-md-3 {
+    margin: 6px 0;
+  }
+}
+
+
+/* Remove horizontal scroll */
+body {
+  overflow-x: hidden;
+}
